@@ -1,8 +1,7 @@
 # Path Planning
 ## Introduction
 
-Install [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
-or from [Docker](https://hub.docker.com/r/tiryoh/ros-melodic-desktop)
+Install Ubuntu Bionic docker image then install [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) into it, or directly install ROS Melodic from [Docker](https://hub.docker.com/r/tiryoh/ros-melodic-desktop).
 
 
 ```
