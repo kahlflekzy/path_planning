@@ -42,6 +42,29 @@ catkin build path_planning
 chmod +x multi_jackal_description/scripts/env_run
 ```
 
+## Installing Mesh-Navigation
+Run
+```
+sudo apt install ros-melodic-mesh-navigation
+```
+
+```
+sudo apt install sudo apt install ros-melodic-robot-pose-ekf
+sudo apt install sudo apt install ros-melodic-uos-common-urdf
+```
+
+Create an empty workspace, then clone `pluto-robot` in it
+```
+cd workspace/src
+git clone https://github.com/uos/pluto_robot.git
+cd .. && catkin build
+```
+
+Afterwards run the code below or one of the other simulations available [here](https://github.com/uos/pluto_robot)
+```
+roslaunch pluto_gazebo pluto_physics.launch
+```
+
 ## References
 1. [Jackal Simulation](https://www.clearpathrobotics.com/assets/guides/melodic/jackal/simulation.html)
 2. [Multi Jackal](https://github.com/NicksSimulationsROS/multi_jackal)
