@@ -49,8 +49,8 @@ sudo apt install ros-melodic-mesh-navigation
 ```
 
 ```
-sudo apt install sudo apt install ros-melodic-robot-pose-ekf
-sudo apt install sudo apt install ros-melodic-uos-common-urdf
+sudo apt install ros-melodic-robot-pose-ekf
+sudo apt install ros-melodic-uos-common-urdf
 ```
 
 Create an empty workspace, then clone `pluto-robot` in it
